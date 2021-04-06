@@ -701,6 +701,11 @@ DATA(insert OID = 3310 ( tsm_handler	PGNSP PGUID  4 t p P f t \054 0 0 0 tsm_han
 DATA(insert OID = 3831 ( anyrange		PGNSP PGUID  -1 f p P f t \054 0 0 0 anyrange_in anyrange_out - - - - - d x f 0 -1 0 0 _null_ _null_ _null_ ));
 #define ANYRANGEOID		3831
 
+//rcao add begin
+DATA(insert OID = 441 (  year       PGNSP PGUID  2 t b N f t \054 0       0 1005 yearin yearout yearrecv yearsend - - - s p f 0 -1 0 0 _null_ _null_ _null_ ));
+DESCR("-32 thousand to 32 thousand, 2-byte storage for my year type");
+#define YEAROID                 441
+//rcao add end
 
 /*
  * macros

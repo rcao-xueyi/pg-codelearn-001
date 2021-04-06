@@ -367,6 +367,10 @@
 #define F_MACADDR_OUT 437
 #define F_PG_NUM_NULLS 438
 #define F_PG_NUM_NONNULLS 440
+#define F_YEARIN 442
+#define F_YEAROUT 443
+#define F_YEARRECV 444
+#define F_YEARSEND 445
 #define F_HASHINT2 449
 #define F_HASHINT4 450
 #define F_HASHFLOAT4 451
